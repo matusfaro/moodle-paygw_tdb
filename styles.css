@@ -1,0 +1,27 @@
+.core_payment_gateways_modal .tdb .icon {
+  height: 40px;
+  width: auto;
+}
+
+.tdbpaymentmodal {
+  text-align: center;
+}
+
+.tdbpaymentmodal .tdblogo .icon {
+  margin-top: 10px;
+  height: 40px;
+  width: auto;
+}
+
+.tdbitems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+  margin: auto;
+  width: 180px;
+}
+
+.tdburlimg {
+  max-width: 40px;
+}
