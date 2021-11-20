@@ -31,6 +31,7 @@ import * as Repository from './repository';
  */
 const showPlaceholderModal = async () => {
     const modal = await ModalFactory.create({
+        large: true,
         body: await Templates.render('paygw_tdb/tdb_iframe_placeholder', {})
     });
     modal.show();
@@ -44,6 +45,7 @@ const showPlaceholderModal = async () => {
  */
 const showModal = async (tdbconfig) => {
     const modal = await ModalFactory.create({
+        large: true,
         body: await Templates.render('paygw_tdb/tdb_iframe', tdbconfig)
     });
     modal.show();
