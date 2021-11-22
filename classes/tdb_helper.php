@@ -119,7 +119,6 @@ class tdb_helper
      */
     public static function check_payment($order)
     {
-        error_log('check_payment: ' . print_r($order, TRUE));
         return $order->tdborderstatus == self::TDB_ORDER_STATUS_APPROVED;
     }
 
